@@ -71,4 +71,4 @@ Representing an image via a 2D pixel array, this class offers:
 2. **Signal**: This class introduces signals, from their generation to their visualization post wavelet transformation.
 3. **Image**: Images, from creation to compression, are explored next.
 4. **Applications**: The final leg demonstrates wavelets in action - signal denoising and image compression, leveraging the aforementioned classes.
-5. **Generalized Functions**: This portion shows the generalized use of wavelets on 1-Dimmensional functions
+5. **Generalized Functions**: This portion shows the generalized use of wavelets on 1-Dimensional functions
