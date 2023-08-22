@@ -166,7 +166,7 @@ def prob6():
         The optimal value (float)
     """	 
     # Get the data and scale it by serving size
-    data = np.load('food.npy', allow_pickle=True)
+    data = np.load('input_files/food.npy', allow_pickle=True)
     scale = np.diag(data[:, 1].copy())
     info = (scale @ data[:, 2:].copy()).T
     price = data[:, 0].copy()
@@ -190,3 +190,5 @@ def prob6():
     prob = cp.Problem(objective, constraints)
     prob.solve()
     return x.value, prob.value
+
+prob6()

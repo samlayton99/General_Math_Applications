@@ -226,7 +226,7 @@ def prob7(n):
         n (int): Number of interpolating points to use.
     """
     # Load the air quality data and store the x and y values.
-    data = np.load("airdata.npy")
+    data = np.load("input_files/airdata.npy")
     x = np.arange(len(data))
     y = data
 
